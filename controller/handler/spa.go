@@ -19,6 +19,7 @@ func SinglePageApplication(ui *ui.Config) http.HandlerFunc {
 			http.Error(writer, "Failed to parse template. This should never happen, because the template is validated on start.", http.StatusInternalServerError)
 			return
 		}
+
 		writer.Header().Set("Content-Type", "text/html")
 		err = t.Execute(writer, ui)
 		if err != nil {
