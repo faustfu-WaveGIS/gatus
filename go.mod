@@ -9,7 +9,7 @@ require (
 	github.com/TwiN/health v1.6.0
 	github.com/TwiN/whois v1.1.0
 	github.com/coreos/go-oidc/v3 v3.5.0
-	github.com/go-ping/ping v0.0.0-20210911151512-381826476871
+	github.com/go-ping/ping v1.1.0
 	github.com/google/go-github/v48 v48.2.0
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/mux v1.8.0
